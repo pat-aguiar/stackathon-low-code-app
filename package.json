@@ -1,7 +1,7 @@
 {
   "name": "low_code_app",
   "version": "2.0.0",
-  "description": "Low code application for developers",
+  "description": "Low code web application for developers",
   "main": "index.js",
   "scripts": {
     "build": "webpack",

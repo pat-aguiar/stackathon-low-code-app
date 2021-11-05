@@ -3,9 +3,14 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import {logout} from '../store'
 
+import CreateProject from './CreateProject';
+
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
     <h1>Low Code</h1>
+    <hr />
+    <CreateProject/>
+    
 
     {/* <nav>
       {isLoggedIn ? (
@@ -25,7 +30,6 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       )}
     </nav> */}
 
-    <hr />
   </div>
 )
 
